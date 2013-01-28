@@ -1,14 +1,17 @@
-lib-cov
-*.seed
+*~
+
+# eclipse ignore
+*.settings/*
+/.project
+/.classpath
+
+# maven ignore
+target/*
+src/main/webapp/WEB-INF/classes/*
+src/test/*
+
+# other ignore
 *.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+*.tmp
+Thumbs.db
 
-pids
-logs
-results
-
-npm-debug.log
